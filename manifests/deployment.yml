@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: patel 
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: patel
+  template:
+    metadata:
+      labels:
+        app: patel 
+    spec:
+      containers:
+        - name: patel 
+          image: vrajmycontainerregistry.azurecr.io/patel
+          ports:
+          - containerPort: 8080
