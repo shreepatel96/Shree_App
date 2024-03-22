@@ -55,7 +55,7 @@ export default function MainNav() {
             >
                 <Container>
                     
-                    <Navbar.Brand>Vraj bhaveshbhai patel</Navbar.Brand>
+                    <Navbar.Brand>Shree Shantilal patel</Navbar.Brand>
                     
                     
                     <Navbar.Toggle aria-controls='navbarScroll' onClick={() => setvrajExpandedtoo((prevState) => !prevState)}/>
